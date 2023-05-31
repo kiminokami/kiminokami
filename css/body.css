@@ -36,11 +36,19 @@ body{
     line-height: 10px;
     color: rgb(28, 43, 43);
 }
-.foot a:link{
+.foot a:link {
     color: rgb(28, 43, 43);
     text-decoration: none;
-}
-
-.foot a:hover{
+  }
+  
+.foot a:visited {
+    text-decoration: none;
+  }
+  
+.foot a:hover {
     text-decoration: underline;
-}
+  }
+  
+.foot a:active {
+    text-decoration: underline;
+  }
