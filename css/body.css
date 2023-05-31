@@ -36,11 +36,11 @@ body{
     line-height: 10px;
     color: rgb(28, 43, 43);
 }
-.foot p a:link{
+.foot a:link{
     color: rgb(28, 43, 43);
     text-decoration: none;
 }
 
-.foot p a:hover{
+.foot a:hover{
     text-decoration: underline;
 }
