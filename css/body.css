@@ -36,21 +36,22 @@ body{
     line-height: 10px;
     color: rgb(28, 43, 43);
 }
-.foot a{
-    color: rgb(28, 43, 43);
-}
 .foot a:link {
+    color: rgb(28, 43, 43);
     text-decoration: none;
   }
   
 .foot a:visited {
+    color: rgb(28, 43, 43);
     text-decoration: none;
   }
   
 .foot a:hover {
+    color: rgb(28, 43, 43);
     text-decoration: underline;
   }
   
 .foot a:active {
+    color: rgb(28, 43, 43);
     text-decoration: underline;
   }
