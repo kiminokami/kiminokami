@@ -36,8 +36,10 @@ body{
     line-height: 10px;
     color: rgb(28, 43, 43);
 }
-.foot a:link {
+.foot a{
     color: rgb(28, 43, 43);
+}
+.foot a:link {
     text-decoration: none;
   }
   
