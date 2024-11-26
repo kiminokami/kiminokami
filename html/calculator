@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--STATUS OK-->
+<html lang="zh-cn">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Language" content="zh-cn">
+    <meta name="author" content="Kiminokami">
+    <meta name="revised" content="Kiminokami,12/20/22">
+    <meta name="generator" content="Visual Studio Code">
+    <title>登录</title>
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/Loading.css">
+</head>
+<body>
+    <div class="back" id="back">
+        <div class="log" id="log">
+            <div class="logtitle">用户登录</div><p></p>
+            <form action="home.html" id="logbody" class="logbody" onsubmit="return login()">
+                <input type="text" id="zh" size="20" class="txt" placeholder="账户">
+                <br>
+                <input type="password" id="mm" size="20" class="txt" placeholder="密码">
+                <br>
+                <input type="submit" value="登录" id="sub" class="sub">
+                <a href="home.html"><input type="button" value="游客登录" id="ykbt" class="ykbt"></a>
+            </form>
+        </div>
+    </div>
+    <div class="con" id="con">
+        <div class="load">
+            <div class="dot" style="--i:0"></div>
+            <div class="dot" style="--i:1"></div>
+            <div class="dot" style="--i:2"></div>
+            <div class="dot" style="--i:3"></div>
+            <div class="dot" style="--i:4"></div>
+            <div class="dot" style="--i:5"></div>
+            <div class="dot" style="--i:6"></div>
+        </div>
+    </div>
+    <div class="tip">
+        <header>
+            <h4>删除时提示</h4>
+            <div class="close">X</div>
+        </header>
+        <article>
+            <p>您真的要删除该条记录吗?</p>
+        </article>
+        <footer>
+            <input type="button" value="确定”id="yes”/>
+            <input type="button" value="取消”id-"no”/>
+        </footer>
+    </div>
+    </div>
+    <script src="../js/login.js"></script>
+    <script>
+    $('#delete').click(function () {
+        $('.tip').css('display', 'block');
+    })
+    </script>
+</body>
+</html>
